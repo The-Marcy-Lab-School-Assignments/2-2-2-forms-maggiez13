@@ -10,7 +10,7 @@ const handleSubmit = (event) => {
   const formObj = Object.fromEntries(formData);
   
   const userValue = document.getElementById("results-username");
-  userValue.innerHTML = formObj.username
+  userValue.innerHTML = formObj.username;
 
   const codingLevel = document.getElementById("results-coding-level");
   codingLevel.innerHTML = formObj.codingLevel;
