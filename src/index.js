@@ -5,10 +5,12 @@
 const handleSubmit = (event) => {
   event.preventDefault();
 
+  // turns form inputs into an object
   const form = event.target;
   const formData = new FormData(form);
   const formObj = Object.fromEntries(formData);
   
+  // reassigning results values 
   const userValue = document.getElementById("results-username");
   userValue.innerHTML = formObj.username;
 
