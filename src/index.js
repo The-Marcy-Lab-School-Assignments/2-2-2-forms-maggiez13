@@ -1,5 +1,6 @@
 /** GENERAL FEEDBACK:
- *
+ * Great job getting all test cases to pass! Love the use of the formsData API!
+ * Love the use of comments for documentation and overall your code is very clean!
  */
 
 const handleSubmit = (event) => {
@@ -12,6 +13,7 @@ const handleSubmit = (event) => {
   
   // reassigning results values 
   const userValue = document.getElementById("results-username");
+  /** FEEDBACK: Instead of innerHTML, you can use textContent! */
   userValue.innerHTML = formObj.username;
 
   const codingLevel = document.getElementById("results-coding-level");
